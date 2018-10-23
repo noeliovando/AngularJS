@@ -10,4 +10,8 @@ function redirect(url) {
     window.location.href = url;
 }
 
+function abrirVentana(url){
+    window.open(url);
+}
+
 getBom();
